@@ -1,4 +1,4 @@
-# NeuralNetwork_HmAs_1
+# NeuralNetwork_HMAS_1
 
 CODE 1 :
 
@@ -209,7 +209,7 @@ accuracy: Training accuracy (should increase over time).
 val_loss: Validation loss (should also decrease).
 val_accuracy: Validation accuracy (should approach 98%).
 
-Step 7:7. Launch TensorBoard
+Step 7:Launch TensorBoard
 After training, open a terminal and run:
 
 Serving TensorBoard on google colab; to access it type one of:
