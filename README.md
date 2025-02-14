@@ -9,19 +9,19 @@ The numpy() function is used to print the tensor values in NumPy format.
 Step 2: Finding Rank and Shape
 In TensorFlow, we can determine a tensor’s rank (number of dimensions) and shape (size along each dimension).
 
-Step 2: Finding Rank and Shape
+Step 3: Finding Rank and Shape
 tf.rank(tensor) returns the number of dimensions.
 tf.shape(tensor) returns the shape as a TensorFlow tensor.
 
-Step 3: Reshaping and Transposing
+Step 4: Reshaping and Transposing
 Now, we reshape the tensor from (4,6) to (2,3,4) and transpose it to (3,2,4).
 
-Step 3: Reshaping and Transposing
+Step 5: Reshaping and Transposing
 Now, we reshape the tensor from (4,6) to (2,3,4) and transpose it to (3,2,4).
 tf.reshape(tensor, (2,3,4)) modifies the shape without changing the data.
 The total number of elements (4×6 = 24) must match (2×3×4 = 24).
 
-Step 4: Broadcasting and Addition
+Step 6: Broadcasting and Addition
 What is Broadcasting?
 Broadcasting allows TensorFlow to perform operations on tensors of different shapes by automatically expanding the smaller tensor to match the larger tensor’s shape.
 
