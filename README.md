@@ -37,6 +37,7 @@ Step	Operation	Shape
 5	Broadcast and add (1,4) tensor	(3,2,4)
 
 
+
 CODE 2 :
 
 Step 1: Import Required Libraries
@@ -70,6 +71,7 @@ plt.bar():
 Plots bars for each loss.
 Uses different colors (blue, cyan, red, orange).
 plt.show(): Displays the bar chart.
+
 
 CODE 3:
 
@@ -143,6 +145,8 @@ ylabel("Validation Accuracy") → Y-axis represents the model's accuracy on test
 title("Adam vs. SGD on MNIST") → Title of the plot.
 legend() → Labels Adam and SGD on the graph.
 plt.show() → Displays the plot.
+
+
 
 CODE 4:
 
