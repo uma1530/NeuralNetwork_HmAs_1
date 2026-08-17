@@ -1,4 +1,4 @@
-# NeuralNetwork_HMAS_1
+# Neural-Networks-TensorFlow-MNIST-TensorBoard
 
 CODE 1 :
 
